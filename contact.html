@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Contact - Brasserie Miyashita</title>
+  <meta name="description" content="Contactez la Brasserie Miyashita. Nous sommes à votre disposition pour toute question sur nos produits, réservations ou partenariats.">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Montserrat:wght@400;700&family=Didot:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-logo">
+          <a href="index.html" class="logo-link">
+            <h1 class="logo-text">Brasserie Miyashita</h1>
+            <span class="logo-subtitle">Artisan Sake Premium</span>
+          </a>
+        </div>
+        <nav class="nav-desktop">
+          <a href="index.html" class="nav-link">Accueil</a>
+          <a href="about.html" class="nav-link">À Propos</a>
+          <a href="products.html" class="nav-link">Produits</a>
+          <a href="process.html" class="nav-link">Savoir-Faire</a>
+          <a href="visit.html" class="nav-link">Visite</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+          <button class="btn-reserve">Réserver</button>
+        </nav>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="nav-mobile" id="navMobile">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">À Propos</a>
+        <a href="products.html" class="nav-link">Produits</a>
+        <a href="process.html" class="nav-link">Savoir-Faire</a>
+        <a href="visit.html" class="nav-link">Visite</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button class="btn-reserve">Réserver</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Hero Section -->
+  <section class="contact-hero">
+    <div class="contact-bg" style="background-image: url('images/top_gasso.jpeg');"></div>
+    <div class="contact-overlay">
+      <div class="container">
+        <div class="contact-hero-content">
+          <h1 class="contact-title">Contactez-Nous</h1>
+          <p class="contact-subtitle">Get in Touch</p>
+          <p class="contact-description">Nous sommes à votre disposition pour toute question sur nos produits, réservations ou partenariats.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section class="contact-info-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Informations de Contact</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Adresse</h3>
+          <p>184 Nishikawara, Naka-ku, Okayama 703-8258, Japon</p>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <h3>Téléphone</h3>
+          <p>+81 86-272-5594</p>
+          <p>Lun-Ven : 9h00 - 17h00 (JST)</p>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <p>info@miyashita-brewery.com</p>
+          <p>Réponse sous 24-48h</p>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Horaires d'Ouverture</h3>
+          <p>Mercredi - Dimanche</p>
+          <p>9h00 - 17h00 (JST)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Formulaire de Contact</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Envoyez-nous votre message et nous vous répondrons dans les plus brefs délais</p>
+      </div>
+      
+      <div class="contact-form-container">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">Prénom *</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="lastName">Nom *</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="company">Entreprise</label>
+            <input type="text" id="company" name="company">
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Sujet *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Sélectionnez un sujet</option>
+              <option value="general">Question générale</option>
+              <option value="products">Informations sur les produits</option>
+              <option value="reservation">Réservation</option>
+              <option value="partnership">Partenariat commercial</option>
+              <option value="wholesale">Vente en gros</option>
+              <option value="visit">Visite de la brasserie</option>
+              <option value="support">Support technique</option>
+              <option value="other">Autre</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre demande en détail..."></textarea>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Je souhaite recevoir la newsletter avec les actualités et offres spéciales</label>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="privacy" name="privacy" required>
+            <label for="privacy">J'accepte la <a href="privacy.html" target="_blank">politique de confidentialité</a> *</label>
+          </div>
+          
+          <button type="submit" class="btn gold">Envoyer le Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Questions Fréquemment Posées</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Comment puis-je commander vos produits ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Vous pouvez commander nos produits directement via notre site web, par téléphone au +81 86-272-5594, ou par email à info@miyashita-brewery.com. Nous proposons également la vente en gros pour les professionnels.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Livrez-vous à l'international ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Oui, nous livrons dans de nombreux pays. Les frais de livraison et les délais varient selon la destination. Contactez-nous pour connaître les conditions spécifiques à votre pays.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Puis-je visiter la brasserie ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Absolument ! Nous proposons des visites guidées de notre brasserie. Les réservations sont recommandées, surtout pour les groupes. Contactez-nous pour organiser votre visite.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Quels sont vos horaires d'ouverture ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Nous sommes ouverts du mercredi au dimanche de 9h00 à 17h00 (heure du Japon). Nous sommes fermés le lundi et mardi, ainsi que les jours fériés.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Proposez-vous des dégustations ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Oui, nous proposons des séances de dégustation de nos produits. Ces dégustations peuvent être organisées sur réservation et incluent une présentation de nos différentes variétés de sake et autres spiritueux.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Comment conserver le sake ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Le sake doit être conservé dans un endroit frais et sombre, idéalement au réfrigérateur après ouverture. Une fois ouvert, il est recommandé de le consommer dans les 2-3 semaines pour préserver sa qualité optimale.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Proposez-vous des coffrets cadeaux ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Oui, nous proposons une gamme de coffrets cadeaux élégants, parfaits pour les occasions spéciales. Ces coffrets incluent une sélection de nos meilleurs produits dans un emballage de luxe.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Puis-je organiser un événement privé ?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Oui, nous pouvons organiser des événements privés dans nos installations. Contactez-nous pour discuter de vos besoins spécifiques et nous vous proposerons des options personnalisées.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Inquiries -->
+  <section class="business-inquiries">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Demandes Commerciales</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Partenariats, vente en gros et collaborations</p>
+      </div>
+      
+      <div class="business-content">
+        <div class="business-text">
+          <h3>Partenariats Commerciaux</h3>
+          <p>Nous recherchons activement des partenaires commerciaux pour développer notre présence internationale. Que vous soyez un importateur, un distributeur ou un restaurateur, nous serions ravis de discuter d'opportunités de collaboration.</p>
+          
+          <h3>Vente en Gros</h3>
+          <p>Nous proposons des conditions spéciales pour les commandes en gros. Nos produits sont disponibles pour les professionnels de la restauration, les cavistes et les distributeurs.</p>
+          
+          <h3>Événements et Dégustations</h3>
+          <p>Nous organisons régulièrement des événements de dégustation et des présentations de produits. Contactez-nous pour organiser un événement personnalisé.</p>
+        </div>
+        
+        <div class="business-contact">
+          <h3>Contact Commercial</h3>
+          <div class="business-contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email Commercial</h4>
+                <p>business@miyashita-brewery.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Téléphone</h4>
+                <p>+81 86-272-5594</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Horaires</h4>
+                <p>Lun-Ven : 9h00 - 17h00 (JST)</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="mailto:business@miyashita-brewery.com" class="btn gold">Contact Commercial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <h3>Brasserie Miyashita</h3>
+            <p>Artisan Sake Premium</p>
+          </div>
+          <p class="footer-description">Nous sommes à votre disposition pour toute question sur nos produits et services.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Produits</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">Junmai Daiginjo</a></li>
+            <li><a href="products.html">Produits Saisonniers</a></li>
+            <li><a href="products.html">Coffrets Cadeaux</a></li>
+            <li><a href="products.html">Produits Originaux</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Entreprise</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="process.html">Processus</a></li>
+            <li><a href="visit.html">Visite</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> +81 86-272-5594</li>
+            <li><i class="fas fa-envelope"></i> info@miyashita-brewery.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> 184 Nishikawara, Naka-ku, Okayama 703-8258, Japon</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Brasserie Miyashita. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Politique de Confidentialité</a>
+          <a href="terms.html">Conditions d'Utilisation</a>
+          <a href="sitemap.html">Plan du Site</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html> 

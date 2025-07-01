@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Nos Produits - Brasserie Miyashita</title>
+  <meta name="description" content="Découvrez notre gamme de produits. Junmai Daiginjo, produits saisonniers, coffrets cadeaux et plus encore. Des spiritueux japonais de la plus haute qualité.">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Montserrat:wght@400;700&family=Didot:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-logo">
+          <a href="index.html" class="logo-link">
+            <h1 class="logo-text">Brasserie Miyashita</h1>
+            <span class="logo-subtitle">Artisan Sake Premium</span>
+          </a>
+        </div>
+        <nav class="nav-desktop">
+          <a href="index.html" class="nav-link">Accueil</a>
+          <a href="about.html" class="nav-link">À Propos</a>
+          <a href="products.html" class="nav-link active">Produits</a>
+          <a href="process.html" class="nav-link">Savoir-Faire</a>
+          <a href="visit.html" class="nav-link">Visite</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <button class="btn-reserve">Réserver</button>
+        </nav>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="nav-mobile" id="navMobile">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">À Propos</a>
+        <a href="products.html" class="nav-link">Produits</a>
+        <a href="process.html" class="nav-link">Savoir-Faire</a>
+        <a href="visit.html" class="nav-link">Visite</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button class="btn-reserve">Réserver</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Products Hero -->
+  <section class="products-hero">
+    <div class="products-bg" style="background-image: url('images/top_kinsho04.jpeg');"></div>
+    <div class="products-overlay">
+      <div class="container">
+        <div class="products-hero-content">
+          <h1 class="products-title">Nos Produits</h1>
+          <p class="products-subtitle">Our Products</p>
+          <p class="products-description">Découvrez notre gamme de spiritueux japonais où tradition et innovation se rencontrent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Categories -->
+  <section class="product-categories">
+    <div class="container">
+      <div class="category-tabs">
+        <button class="category-tab active" data-category="all">🍶 Tous</button>
+        <button class="category-tab" data-category="premium">👑 Premium</button>
+        <button class="category-tab" data-category="seasonal">🌸 Saisonnier</button>
+        <button class="category-tab" data-category="gift">🎁 Cadeaux</button>
+        <button class="category-tab" data-category="original">⭐ Original</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Grid -->
+  <section class="products-grid-section">
+    <div class="container">
+      <div class="products-grid">
+        <!-- Premium Products -->
+        <div class="product-card premium" data-category="premium">
+          <div class="product-image">
+            <img src="images/top_kinsho04.jpeg" alt="Gokusei Tenka Shisei" />
+            <div class="product-badge premium">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3>Gokusei Tenka Shisei</h3>
+            <p class="product-description">Un Junmai Daiginjo exceptionnel élaboré avec du riz Omachi poli à 20%, une première mondiale. Lauréat de la Médaille d'Or au SAKE COMPETITION 2025, catégorie Super Premium.</p>
+            <div class="product-specs">
+              <span class="spec">Polissage: 20%</span>
+              <span class="spec">Alcool: 15-16%</span>
+              <span class="spec">Volume: 720ml</span>
+            </div>
+            <div class="product-price">
+              <span class="price">180€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card premium" data-category="premium">
+          <div class="product-image">
+            <img src="images/top_kinujo.jpeg" alt="Gokusei Daiginjo" />
+            <div class="product-badge premium">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3>Gokusei Daiginjo</h3>
+            <p class="product-description">Daiginjo lauréat du Prix d'Excellence au Concours National (2 ans consécutifs, 24ème fois). Élaboré avec du riz premium poli à 40%, arômes floraux et saveur raffinée.</p>
+            <div class="product-specs">
+              <span class="spec">Polissage: 40%</span>
+              <span class="spec">Alcool: 15-16%</span>
+              <span class="spec">Volume: 720ml</span>
+            </div>
+            <div class="product-price">
+              <span class="price">110€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seasonal Products -->
+        <div class="product-card seasonal" data-category="seasonal">
+          <div class="product-image">
+            <img src="images/top_ochugen2025.jpeg" alt="Coffret Cadeau Été" />
+            <div class="product-badge seasonal">Saisonnier</div>
+          </div>
+          <div class="product-info">
+            <h3>Coffret Cadeau Été</h3>
+            <p class="product-description">Coffret cadeau idéal pour l'été. Une sélection exclusive des produits de la Brasserie Miyashita.</p>
+            <div class="product-specs">
+              <span class="spec">Contenu: Junmai Daiginjo×1, Junmai Ginjo×1</span>
+              <span class="spec">Volume: 720ml chacun</span>
+              <span class="spec">Boîte: Coffret paulownia luxueux</span>
+            </div>
+            <div class="product-price">
+              <span class="price">150€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card seasonal" data-category="seasonal">
+          <div class="product-image">
+            <img src="images/top_gasso.jpeg" alt="Gasso Saisonnier" />
+            <div class="product-badge seasonal">Saisonnier</div>
+          </div>
+          <div class="product-info">
+            <h3>Gasso Saisonnier</h3>
+            <p class="product-description">Junmai spécial exprimant les changements de saison. Saveur riche et arôme raffiné caractéristiques.</p>
+            <div class="product-specs">
+              <span class="spec">Polissage: 60%</span>
+              <span class="spec">Alcool: 15-16%</span>
+              <span class="spec">Volume: 720ml</span>
+            </div>
+            <div class="product-price">
+              <span class="price">45€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beer Products -->
+        <div class="product-card original" data-category="original">
+          <div class="product-image">
+            <img src="images/top_takashimaipa.jpeg" alt="Takashima IPA" />
+            <div class="product-badge original">Bière Artisanale</div>
+          </div>
+          <div class="product-info">
+            <h3>Takashima IPA</h3>
+            <p class="product-description">IPA caractérisée par l'arôme et l'amertume du houblon. Chef-d'œuvre de la série bière artisanale Miyashita.</p>
+            <div class="product-specs">
+              <span class="spec">Alcool: 6.5%</span>
+              <span class="spec">Volume: 330ml</span>
+              <span class="spec">Style: IPA</span>
+            </div>
+            <div class="product-price">
+              <span class="price">4€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card original" data-category="original">
+          <div class="product-image">
+            <img src="images/top_goldenale.jpeg" alt="Golden Ale" />
+            <div class="product-badge original">Bière Artisanale</div>
+          </div>
+          <div class="product-info">
+            <h3>Golden Ale</h3>
+            <p class="product-description">Golden Ale où la douceur du malt et l'arôme du houblon s'harmonisent parfaitement. Saveur facile à apprécier.</p>
+            <div class="product-specs">
+              <span class="spec">Alcool: 5.0%</span>
+              <span class="spec">Volume: 330ml</span>
+              <span class="spec">Style: Golden Ale</span>
+            </div>
+            <div class="product-price">
+              <span class="price">3.50€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shochu Products -->
+        <div class="product-card original" data-category="original">
+          <div class="product-image">
+            <img src="images/top_okadaishochu.jpeg" alt="Shochu Okayama" />
+            <div class="product-badge original">Shochu</div>
+          </div>
+          <div class="product-info">
+            <h3>Shochu Okayama</h3>
+            <p class="product-description">Shochu développé en collaboration avec l'Université d'Okayama. Élaboré avec des ingrédients locaux selon une méthode unique.</p>
+            <div class="product-specs">
+              <span class="spec">Alcool: 25%</span>
+              <span class="spec">Volume: 720ml</span>
+              <span class="spec">Ingrédient: Riz</span>
+            </div>
+            <div class="product-price">
+              <span class="price">25€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liqueur Products -->
+        <div class="product-card original" data-category="original">
+          <div class="product-image">
+            <img src="images/top_fruitliqueur.jpeg" alt="Liqueur aux Fruits" />
+            <div class="product-badge original">Liqueur</div>
+          </div>
+          <div class="product-info">
+            <h3>Liqueur aux Fruits</h3>
+            <p class="product-description">Liqueur aux fruits utilisant les fruits locaux. Saveur douce et facile à apprécier.</p>
+            <div class="product-specs">
+              <span class="spec">Alcool: 15%</span>
+              <span class="spec">Volume: 500ml</span>
+              <span class="spec">Saveur: Fruits de saison</span>
+            </div>
+            <div class="product-price">
+              <span class="price">18€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gift Products -->
+        <div class="product-card gift" data-category="gift">
+          <div class="product-image">
+            <img src="images/top_doppokan-2.jpeg" alt="Coffret Brasserie Miyashita" />
+            <div class="product-badge gift">Cadeau</div>
+          </div>
+          <div class="product-info">
+            <h3>Coffret Brasserie Miyashita</h3>
+            <p class="product-description">Set de 2 bouteilles : Junmai Daiginjo et Junmai Ginjo. Livré dans un coffret en bois de paulownia luxueux.</p>
+            <div class="product-specs">
+              <span class="spec">Contenu: Junmai Daiginjo×1, Junmai Ginjo×1</span>
+              <span class="spec">Volume: 720ml chacun</span>
+              <span class="spec">Boîte: Paulownia</span>
+            </div>
+            <div class="product-price">
+              <span class="price">150€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card gift" data-category="gift">
+          <div class="product-image">
+            <img src="images/top_doppokan_open.jpeg" alt="Coffret Saisonnier" />
+            <div class="product-badge gift">Cadeau</div>
+          </div>
+          <div class="product-info">
+            <h3>Coffret Saisonnier</h3>
+            <p class="product-description">Set comprenant un sake saisonnier et des verres originaux. Parfait pour les occasions spéciales.</p>
+            <div class="product-specs">
+              <span class="spec">Contenu: Sake saisonnier×1, Set de verres</span>
+              <span class="spec">Volume: 720ml</span>
+              <span class="spec">Verres: Céramique</span>
+            </div>
+            <div class="product-price">
+              <span class="price">110€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Original Products -->
+        <div class="product-card original" data-category="original">
+          <div class="product-image">
+            <img src="images/top_domomo.jpeg" alt="Domomo Junmai" />
+            <div class="product-badge original">Original</div>
+          </div>
+          <div class="product-info">
+            <h3>Domomo Junmai</h3>
+            <p class="product-description">Produit phare de la Brasserie Miyashita. Junmai élaboré selon des méthodes traditionnelles, facile à apprécier.</p>
+            <div class="product-specs">
+              <span class="spec">Polissage: 70%</span>
+              <span class="spec">Alcool: 15-16%</span>
+              <span class="spec">Volume: 720ml</span>
+            </div>
+            <div class="product-price">
+              <span class="price">25€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card original" data-category="original">
+          <div class="product-image">
+            <img src="images/top_takumi2.jpeg" alt="Takumi Namazake" />
+            <div class="product-badge original">Original</div>
+          </div>
+          <div class="product-info">
+            <h3>Takumi Namazake</h3>
+            <p class="product-description">Sake non pasteurisé. Saveur fraîche et vivifiante caractéristique. À conserver au réfrigérateur.</p>
+            <div class="product-specs">
+              <span class="spec">Polissage: 70%</span>
+              <span class="spec">Alcool: 15-16%</span>
+              <span class="spec">Volume: 720ml</span>
+            </div>
+            <div class="product-price">
+              <span class="price">30€</span>
+              <button class="btn gold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Features -->
+  <section class="product-features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Caractéristiques de Nos Produits</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3>Ingrédients Rigoureusement Sélectionnés</h3>
+          <p>Riz Yamada Nishiki de la plus haute qualité et eau souterraine pure. Tous les ingrédients respectent des critères de qualité stricts.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-hands"></i>
+          </div>
+          <h3>Savoir-Faire Artisanal</h3>
+          <p>Élaboré goutte par goutte par des artisans transmettant plus de 100 ans de tradition.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-temperature-low"></i>
+          </div>
+          <h3>Brassage à Basse Température</h3>
+          <p>Brassage lent à basse température pour réaliser une saveur raffinée et délicate.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3>Bienfaits de la Nature</h3>
+          <p>Spiritueux authentiques élaborés uniquement avec riz, eau et koji, sans aucun additif.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Information -->
+  <section class="order-info">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Informations de Commande</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="order-content">
+        <div class="order-details">
+          <h3>Livraison</h3>
+          <ul>
+            <li>Livraison disponible dans toute la France</li>
+            <li>Frais de livraison variables selon la région (détails sur demande)</li>
+            <li>Livraison réfrigérée</li>
+            <li>Livraison à date et heure souhaitées possible</li>
+          </ul>
+        </div>
+        
+        <div class="order-details">
+          <h3>Moyens de Paiement</h3>
+          <ul>
+            <li>Carte bancaire (VISA, MasterCard, JCB, AMEX)</li>
+            <li>Virement bancaire</li>
+            <li>Paiement à la livraison</li>
+            <li>Paiement en magasin</li>
+          </ul>
+        </div>
+        
+        <div class="order-details">
+          <h3>Retours et Échanges</h3>
+          <ul>
+            <li>Retours et échanges acceptés sous 7 jours après réception, produits non ouverts et non utilisés uniquement</li>
+            <li>En cas de problème de qualité, n'hésitez pas à nous contacter</li>
+            <li>Frais de retour à la charge du client</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="order-cta">
+        <p>Pour plus d'informations sur nos produits, n'hésitez pas à nous contacter.</p>
+        <a href="contact.html" class="btn gold">Nous Contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <h3>Brasserie Miyashita</h3>
+            <p>Artisan Sake Premium</p>
+          </div>
+          <p class="footer-description">Spiritueux premium où tradition et innovation se rencontrent, livrés dans le monde entier.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Produits</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">Sake & Shochu</a></li>
+            <li><a href="products.html">Bières & Spiritueux</a></li>
+            <li><a href="products.html">Liqueurs & Eaux-de-vie</a></li>
+            <li><a href="products.html">Whisky & Vins de Fruits</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Entreprise</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="process.html">Processus</a></li>
+            <li><a href="visit.html">Visite</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> +81 86-272-5594</li>
+            <li><i class="fas fa-envelope"></i> info@miyashita-brewery.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> 184 Nishikawara, Naka-ku, Okayama 703-8258, Japon</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Brasserie Miyashita. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Politique de Confidentialité</a>
+          <a href="terms.html">Conditions d'Utilisation</a>
+          <a href="sitemap.html">Plan du Site</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html> 

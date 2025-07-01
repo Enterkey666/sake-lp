@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Brasserie Miyashita - Sake Premium Junmai Daiginjo</title>
+  <meta name="description" content="Découvrez le nouveau sake premium de la Brasserie Miyashita. Un Junmai Daiginjo d'exception où tradition japonaise rencontre sophistication française.">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Montserrat:wght@400;700&family=Didot:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-logo">
+          <a href="index.html" class="logo-link">
+            <h1 class="logo-text">Brasserie Miyashita</h1>
+            <span class="logo-subtitle">Artisan Sake Premium</span>
+          </a>
+        </div>
+        <nav class="nav-desktop">
+          <a href="index.html" class="nav-link active">Accueil</a>
+          <a href="about.html" class="nav-link">À Propos</a>
+          <a href="products.html" class="nav-link">Produits</a>
+          <a href="process.html" class="nav-link">Savoir-Faire</a>
+          <a href="visit.html" class="nav-link">Visite</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <button class="btn-reserve">Réserver</button>
+        </nav>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="nav-mobile" id="navMobile">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">À Propos</a>
+        <a href="products.html" class="nav-link">Produits</a>
+        <a href="process.html" class="nav-link">Savoir-Faire</a>
+        <a href="visit.html" class="nav-link">Visite</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button class="btn-reserve">Réserver</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('images/top_kinsho04.jpeg');"></div>
+    <div class="hero-overlay">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Brasserie Miyashita</h1>
+          <p class="hero-subtitle">Artisan Sake Premium</p>
+          <p class="hero-description">Découvrez notre nouveau Junmai Daiginjo d'exception, où tradition japonaise rencontre sophistication française.</p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn gold">Découvrir</a>
+            <a href="#about" class="btn outline">En Savoir Plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Concept -->
+  <section class="product-concept">
+    <div class="container">
+      <div class="concept-content">
+        <div class="concept-text">
+          <h2>Junmai Daiginjo "Gokusei Tenka Shisei"</h2>
+          <p>Notre nouveau sake premium, élaboré avec des techniques traditionnelles japonaises et une attention particulière à la qualité. Un spiritueux d'exception qui incarne l'harmonie entre tradition et innovation.</p>
+          <div class="concept-features">
+            <div class="feature">
+              <i class="fas fa-star"></i>
+              <span>Qualité Premium</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-leaf"></i>
+              <span>Ingrédients Naturels</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-award"></i>
+              <span>Récompensé</span>
+            </div>
+          </div>
+        </div>
+        <div class="concept-image">
+          <img src="images/top_kinujo.jpeg" alt="Junmai Daiginjo Premium" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section id="products" class="product-showcase">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nos Produits Premium</h2>
+        <div class="section-divider"></div>
+        <p>Une sélection de nos meilleurs produits, élaborés avec passion et expertise</p>
+      </div>
+      
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/top_kinsho04.jpeg" alt="Junmai Daiginjo Gokusei" />
+            <div class="product-badge premium">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3>Junmai Daiginjo "Gokusei"</h3>
+            <p>Notre sake le plus prestigieux, élaboré avec un riz poli à 20%. Une expérience gustative exceptionnelle.</p>
+            <div class="product-specs">
+              <span class="spec">Alcool: 16%</span>
+              <span class="spec">Riz: Omachi</span>
+              <span class="spec">Polissage: 20%</span>
+            </div>
+            <div class="product-price">
+              <span class="price">€180</span>
+              <button class="btn gold">Commander</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/top_kinujo.jpeg" alt="Junmai Daiginjo Kinujo" />
+            <div class="product-badge premium">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3>Junmai Daiginjo "Kinujo"</h3>
+            <p>Un sake raffiné avec une douceur exceptionnelle et des arômes complexes de fruits mûrs.</p>
+            <div class="product-specs">
+              <span class="spec">Alcool: 15%</span>
+              <span class="spec">Riz: Yamada Nishiki</span>
+              <span class="spec">Polissage: 35%</span>
+            </div>
+            <div class="product-price">
+              <span class="price">€120</span>
+              <button class="btn gold">Commander</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/top_doppokan_open.jpeg" alt="Coffret Dégustation" />
+            <div class="product-badge gift">Cadeau</div>
+          </div>
+          <div class="product-info">
+            <h3>Coffret Dégustation</h3>
+            <p>Un coffret élégant contenant une sélection de nos meilleurs sakes, parfait pour découvrir notre gamme.</p>
+            <div class="product-specs">
+              <span class="spec">3 bouteilles</span>
+              <span class="spec">Guide de dégustation</span>
+              <span class="spec">Emballage luxueux</span>
+            </div>
+            <div class="product-price">
+              <span class="price">€250</span>
+              <button class="btn gold">Commander</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tasting Notes -->
+  <section class="tasting-notes">
+    <div class="container">
+      <div class="section-header">
+        <h2>Notes de Dégustation</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="tasting-content">
+        <div class="tasting-image">
+          <img src="images/top_jungin_nomikurabe.jpeg" alt="Dégustation de Sake" />
+        </div>
+        <div class="tasting-text">
+          <h3>Gokusei Tenka Shisei</h3>
+          <div class="tasting-details">
+            <div class="tasting-item">
+              <h4>Apparence</h4>
+              <p>Cristalline avec des reflets dorés subtils</p>
+            </div>
+            <div class="tasting-item">
+              <h4>Arômes</h4>
+              <p>Fruits blancs, fleurs blanches, notes minérales</p>
+            </div>
+            <div class="tasting-item">
+              <h4>Palais</h4>
+              <p>Élégant, complexe, longue finale persistante</p>
+            </div>
+            <div class="tasting-item">
+              <h4>Température</h4>
+              <p>10-15°C pour une dégustation optimale</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brewery Story -->
+  <section id="about" class="brewery-story">
+    <div class="container">
+      <div class="section-header">
+        <h2>Notre Histoire</h2>
+        <div class="section-divider"></div>
+        <p>Plus de 100 ans de tradition et d'innovation</p>
+      </div>
+      
+      <div class="story-content">
+        <div class="story-text">
+          <h3>Brasserie Miyashita</h3>
+          <p>Fondée en 1915, la Brasserie Miyashita perpétue l'art traditionnel du brassage du sake japonais tout en intégrant les innovations modernes. Notre engagement envers l'excellence nous a valu de nombreuses récompenses internationales.</p>
+          <p>Chaque bouteille de notre sake premium est le fruit d'un savoir-faire transmis de génération en génération, combiné à une attention méticuleuse portée à chaque étape du processus de brassage.</p>
+          <a href="about.html" class="btn outline">Découvrir Notre Histoire</a>
+        </div>
+        <div class="story-image">
+          <img src="images/top_doppokan-2.jpeg" alt="Brasserie Miyashita" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Limited Offer -->
+  <section class="limited-offer">
+    <div class="container">
+      <div class="offer-content">
+        <div class="offer-text">
+          <h2>Offre Limitée</h2>
+          <h3>Édition Spéciale "Gokusei"</h3>
+          <p>Profitez de notre édition limitée avec un coffret cadeau exclusif et une dégustation virtuelle avec notre maître brasseur.</p>
+          <div class="countdown">
+            <div class="countdown-item">
+              <span class="countdown-number">30</span>
+              <span class="countdown-label">Jours</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-number">12</span>
+              <span class="countdown-label">Heures</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-number">45</span>
+              <span class="countdown-label">Minutes</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-number">30</span>
+              <span class="countdown-label">Secondes</span>
+            </div>
+          </div>
+          <button class="btn gold">Réserver Maintenant</button>
+        </div>
+        <div class="offer-image">
+          <img src="images/top_kinsho04.jpeg" alt="Édition Limitée" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Témoignages</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Un sake exceptionnel qui rivalise avec les meilleurs vins français. La complexité aromatique est remarquable."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Pierre Dubois</h4>
+            <span>Sommelier, Restaurant Le Grand</span>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"La qualité et l'attention aux détails sont impressionnantes. Un produit qui mérite sa place dans les meilleures caves."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Marie Laurent</h4>
+            <span>Critique Gastronomique</span>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Une expérience gustative unique qui m'a fait redécouvrir le sake japonais sous un jour nouveau."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Jean Moreau</h4>
+            <span>Amateur de Spiritueux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section class="awards">
+    <div class="container">
+      <div class="section-header">
+        <h2>Récompenses et Reconnaissance</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="awards-grid">
+        <div class="award-card">
+          <div class="award-image">
+            <img src="images/sakecompetition2025_tks.jpeg" alt="SAKE COMPETITION 2025" />
+          </div>
+          <div class="award-content">
+            <h3>SAKE COMPETITION 2025</h3>
+            <p class="award-category">Médaille d'Or - Catégorie Super Premium</p>
+            <p>Notre Junmai Daiginjo "Gokusei Tenka Shisei" a remporté la plus haute distinction dans la catégorie Super Premium.</p>
+          </div>
+        </div>
+        
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="award-content">
+            <h3>Concours National des Sake</h3>
+            <p class="award-category">Prix d'Excellence - 2 ans consécutifs</p>
+            <p>Reconnaissance continue de la qualité exceptionnelle de nos produits par les experts du secteur.</p>
+          </div>
+        </div>
+        
+        <div class="award-card">
+          <div class="award-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="award-content">
+            <h3>Concours International</h3>
+            <p class="award-category">Médaille d'Or - Catégorie Premium</p>
+            <p>Excellence reconnue au niveau international, confirmant notre position de leader dans l'industrie.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <h3>Brasserie Miyashita</h3>
+            <p>Artisan Sake Premium</p>
+          </div>
+          <p class="footer-description">Plus de 100 ans de tradition et d'innovation dans l'art du brassage du sake japonais.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Produits</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">Junmai Daiginjo</a></li>
+            <li><a href="products.html">Produits Saisonniers</a></li>
+            <li><a href="products.html">Coffrets Cadeaux</a></li>
+            <li><a href="products.html">Produits Originaux</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Entreprise</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="process.html">Processus</a></li>
+            <li><a href="visit.html">Visite</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> +81 86-272-5594</li>
+            <li><i class="fas fa-envelope"></i> info@miyashita-brewery.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> 184 Nishikawara, Naka-ku, Okayama 703-8258, Japon</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Brasserie Miyashita. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Politique de Confidentialité</a>
+          <a href="terms.html">Conditions d'Utilisation</a>
+          <a href="sitemap.html">Plan du Site</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html> 
