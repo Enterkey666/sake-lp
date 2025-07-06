@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import ProductShowcase from '../components/ProductShowcase';
 import TastingNotes from '../components/TastingNotes';
@@ -9,15 +10,18 @@ import Footer from '../components/Footer';
 
 const LandingPage = () => {
   return (
-    <main>
-      <HeroSection />
-      <ProductShowcase />
-      <TastingNotes />
-      <BreweryStory />
-      <LimitedOffer />
-      <Testimonials />
-      <Footer />
-    </main>
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+        <ProductShowcase />
+        <TastingNotes />
+        <BreweryStory />
+        <LimitedOffer />
+        <Testimonials />
+        <Footer />
+      </main>
+    </>
   );
 };
 
